@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation Property</title>
+	<style type="text/css">
+		.demo
+		{
+			font-size: 200px;
+			text-align: center;
+			animation-name: blink;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes blink
+        {
+        	50%
+        	{
+        		opacity: 0;
+        	}
+        }
+	</style>
+</head>
+<body>
+	<div class="demo">&#128151</div>
+</body>
+</html>
