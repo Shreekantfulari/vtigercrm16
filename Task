@@ -18,6 +18,15 @@
 	</style>
 </head>
 <body>
+    <h1> SHREEKANT</h1>
+    <h2> FULARI</h2>
+    <h3>PUNE</h3>
+    <h1> SHREEKANT</h1>
+    <h2> FULARI</h2>
+    <h3>PUNE</h3>
+    <h1> SHREEKANT</h1>
+    <h2> FULARI</h2>
+    <h3>PUNE</h3>
 	<h1 align="center">TIME</h1>
 	<h1 align="center" style="color: royalblue;"><p id="dis" class="tm"></p></h1>
 	<script type="text/javascript">
