@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh"content="1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TIME</title>
+	<style type="text/css">
+		.tm
+		{
+			border: ;
+			width: ;
+			display: ;
+			padding-left: ;
+			background-color: ;
+			color: ;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">TIME</h1>
+	<h1 align="center" style="color: royalblue;"><p id="dis" class="tm"></p></h1>
+	<script type="text/javascript">
+		let tm=new Date();
+		let hr=tm.getHours();
+		let mn=tm.getMinutes();
+		let sc=tm.getSeconds();
+		document.getElementById("dis").innerHTML=hr+":"+mn+":"+sc;
+	</script>
+
+</body>
+</html>
